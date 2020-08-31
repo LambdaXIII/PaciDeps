@@ -1,2 +1,0 @@
-# PaciDeps
-PaciProject Common dependencies

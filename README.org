@@ -1,0 +1,22 @@
+#+TITLE: PaciDeps
+
+PaciProject Common dependencies
+
+
+* 各个目录结构
+** deps 外部依赖目录
+- csv 一个 csv 处理库
+- uchardet 一个 C++ 的文本编码识别库
+- WarlockLib 我自己的函数库
+- QoolUI 我自己设计的 QML 界面库
+** libs 内部库目录
+- PaciBase
+  基本的公用算法和函数，以及宏定义
+- PaciCore
+  Paci 核心的类元件定义
+- PaciFormate
+  Paci 各种字幕格式的支持库
+- PaciFortune
+  语录系统静态库
+- PaciFontDesigner
+  字体选择设置系统，依赖QoolUI
