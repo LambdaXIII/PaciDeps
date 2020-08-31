@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/fortune">
+        <file>normal_fortunes</file>
+    </qresource>
+</RCC>

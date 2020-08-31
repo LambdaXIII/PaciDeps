@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sequence>
+<sequence>
+    <sequence_name>啪词示例序列</sequence_name>
+    <note>这是啪词自动生成的测试序列，可用于功能测试。感谢您的使用。请关注微信公众号：后期黑话。</note>
+    <timebase rate="24" dropframe="NO"/>
+    <fontinfo>
+        <alignment></alignment>
+        <aspect>1</aspect>
+        <bold>NO</bold>
+        <color red="1" green="1" blue="1" alpha="1"/>
+        <family>Arial</family>
+        <italic>NO</italic>
+        <lead>0</lead>
+        <opacity>1</opacity>
+        <outlineColor red="0" green="0" blue="0" alpha="1"/>
+        <outlineSoft>5</outlineSoft>
+        <outlineWidth>1</outlineWidth>
+        <size>18</size>
+        <track>0</track>
+    </fontinfo>
+    <track_manager>
+        <!--本序列共有轨道3条，片段72个-->
+        <track tag="Chinese" is_activated="YES" font_switch="YES">
+            <!--本轨道包含片段24个，片段字体已启用。-->
+            <fontinfo>
+                <alignment></alignment>
+                <aspect>1</aspect>
+                <bold>NO</bold>
+                <color red="1" green="1" blue="1" alpha="1"/>
+                <family>Arial</family>
+                <italic>NO</italic>
+                <lead>0</lead>
+                <opacity>1</opacity>
+                <outlineColor red="0" green="0" blue="0" alpha="1"/>
+                <outlineSoft>5</outlineSoft>
+                <outlineWidth>1</outlineWidth>
+                <size>18</size>
+                <track>0</track>
+            </fontinfo>
+            <clip start="0" duration="2000" is_activated="YES" unique_mark="24367944-250d-483e-b267-11e9318c335c">
+                <content>欢迎使用啪词工具</content>
+            </clip>
+            <clip start="2000" duration="2000" is_activated="YES" unique_mark="43c000e8-8999-4728-8f57-b75fe54d3127">
+                <content>这是一份由程序自动生成的字幕序列</content>
+            </clip>
+            <clip start="4000" duration="2000" is_activated="YES" unique_mark="2ff44c12-d44c-4eaf-891c-d4211ac036ff">
+                <content>专门用来进行功能测试</content>
+            </clip>
+            <clip start="8000" duration="2000" is_activated="YES" unique_mark="5f686502-71e6-43c8-84ea-6b26e9c36edd">
+                <content>或开发调试的</content>
+            </clip>
+            <clip start="10000" duration="2000" is_activated="YES" unique_mark="4e27e64c-505b-4511-b5ef-47eb335dcae9">
+                <content>感谢您的使用</content>
+            </clip>
+            <clip start="12000" duration="2000" is_activated="YES" unique_mark="22066d06-cbcb-4e50-9e4a-c6ff4725ed51">
+                <content>如果使用过程中有什么疑问</content>
+            </clip>
+            <clip start="14000" duration="2000" is_activated="YES" unique_mark="29b623e0-6448-44c2-8f2e-f40fc3fb3c58">
+                <content>以及意见或建议</content>
+            </clip>
+            <clip start="16000" duration="2000" is_activated="YES" unique_mark="400692f1-824b-4713-b26f-3da166f11b12">
+                <content>请联系我</content>
+            </clip>
+            <clip start="18000" duration="2000" is_activated="YES" unique_mark="9af0fd1f-3734-4654-8548-66e142e4afe4">
+                <content>我的邮箱是：xiii_1991@163.com</content>
+            </clip>
+            <clip start="20000" duration="2000" is_activated="YES" unique_mark="71313b96-f3ca-44b4-8b7a-1c043155fde8">
+                <content>接下来是一些无意义的内容</content>
+            </clip>
+            <clip start="22000" duration="2000" is_activated="YES" unique_mark="28e4b084-53e2-4c18-b999-3ab2b7854800">
+                <content>仅供测试之用——</content>
+            </clip>
+            <clip start="30000" duration="2000" is_activated="NO" unique_mark="9dd6ae03-dd7f-4061-bfb7-ab1f89c823a2">
+                <content>这两句是隐藏的</content>
+            </clip>
+            <clip start="32000" duration="4000" is_activated="NO" unique_mark="94b1d5d0-a8b8-4432-b20a-29ce3962c2fa">
+                <content>你应该看不到这两句话</content>
+            </clip>
+            <clip start="38000" duration="2000" is_activated="YES" unique_mark="f1cbe41c-7c80-4f9d-8389-17b422818c78">
+                <content>千山鸟飞绝</content>
+            </clip>
+            <clip start="40000" duration="2000" is_activated="YES" unique_mark="2baadb4c-25c3-451f-acab-a848e0be1379">
+                <content>万径人踪灭</content>
+            </clip>
+            <clip start="42000" duration="2000" is_activated="YES" unique_mark="a6f19d6b-e628-4142-85e4-b29231b0a87e">
+                <content>采菊东篱下</content>
+            </clip>
+            <clip start="44000" duration="2000" is_activated="YES" unique_mark="d5f21d72-5be6-4f04-9e40-5988b41b99bc">
+                <content>清泉石上流</content>
+            </clip>
+            <clip start="48000" duration="1050" is_activated="YES" unique_mark="739188ab-ec90-4eab-b85a-84354443bb65">
+                <content>你根本就不懂</content>
+            </clip>
+            <clip start="49050" duration="2100" is_activated="YES" unique_mark="1ff5a987-21ec-42ca-9bdd-968be491af2c">
+                <content>什么叫做爱</content>
+            </clip>
+            <clip start="53000" duration="4000" is_activated="YES" unique_mark="5b0b57ce-37b8-4166-af18-6b2242edbc10">
+                <content>我能吞下玻璃而不伤到自己</content>
+            </clip>
+            <clip start="57100" duration="2500" is_activated="YES" unique_mark="51ae9c72-73b2-4f23-a3b4-34ecdf9cc8e7">
+                <content>这难道就是传国玉玺？</content>
+            </clip>
+            <clip start="63400" duration="2000" is_activated="YES" unique_mark="93aaefca-04c5-48e8-b378-be8a0ca156c1">
+                <content>你是凯丁吗</content>
+            </clip>
+            <clip start="65400" duration="1500" is_activated="YES" unique_mark="9002c092-9ac5-4d5a-8979-cf1c1975c794">
+                <content>不 我是希勒瑞斯</content>
+            </clip>
+            <clip start="67312" duration="10000" is_activated="YES" unique_mark="4506f3dc-66b3-45ed-b444-646ba169a704">
+                <content>请关注微信公众号：后期黑话</content>
+                <extra_data name="clipnote" value="关注有惊喜唷"/>
+            </clip>
+        </track>
+        <track tag="English" is_activated="YES" font_switch="NO">
+            <!--本轨道包含片段24个，片段字体未启用。-->
+            <fontinfo>
+                <alignment>center</alignment>
+                <aspect>1</aspect>
+                <bold>NO</bold>
+                <color red="1" green="1" blue="1" alpha="1"/>
+                <family>Arial</family>
+                <italic>NO</italic>
+                <lead>0</lead>
+                <opacity>1</opacity>
+                <outlineColor red="0" green="0" blue="0" alpha="1"/>
+                <outlineSoft>5</outlineSoft>
+                <outlineWidth>1</outlineWidth>
+                <size>18</size>
+                <track>0</track>
+            </fontinfo>
+            <clip start="0" duration="2000" is_activated="YES" unique_mark="2617521f-08c1-4c85-8638-82846cc9d0ba">
+                <content>Welcome to Paci CaptionComposer!</content>
+            </clip>
+            <clip start="2000" duration="2000" is_activated="YES" unique_mark="2cbd34c5-b9ca-4561-ae28-c359ee451f74">
+                <content>This is a example sequence self generated.</content>
+            </clip>
+            <clip start="4000" duration="2000" is_activated="YES" unique_mark="f7ddbea0-e3b6-4276-9827-955cf5fe4b56">
+                <content>The example is made</content>
+            </clip>
+            <clip start="8000" duration="2000" is_activated="YES" unique_mark="f7ecabad-438d-479b-9720-315d99ea46a8">
+                <content>to test or debug functions.</content>
+            </clip>
+            <clip start="10000" duration="2000" is_activated="YES" unique_mark="41871390-8ba6-43a5-9a06-39ac198fd000">
+                <content>Thank you for using me.</content>
+            </clip>
+            <clip start="12000" duration="2000" is_activated="YES" unique_mark="cab8053d-a7dc-4eb9-807f-fd97dd5198a3">
+                <content>Please contact me</content>
+            </clip>
+            <clip start="14000" duration="2000" is_activated="YES" unique_mark="07560963-0065-4c91-b3b1-163a2a27aed7">
+                <content>if you have any problem</content>
+            </clip>
+            <clip start="16000" duration="2000" is_activated="YES" unique_mark="d0be2e78-eef9-496c-a070-135f84ccdcb4">
+                <content>or advice.</content>
+            </clip>
+            <clip start="18000" duration="2000" is_activated="YES" unique_mark="be449460-9040-4792-b515-579bc9d3143d">
+                <content>My e-mail: xiii_1991@163.com</content>
+            </clip>
+            <clip start="20000" duration="2000" is_activated="YES" unique_mark="cae91783-d7f2-4d97-aff1-021708499c82">
+                <content>There're some meanningless words below.</content>
+            </clip>
+            <clip start="22000" duration="2000" is_activated="YES" unique_mark="e310e380-a104-4d8e-b406-2ae23ebc9855">
+                <content>Generated for tests.</content>
+            </clip>
+            <clip start="30000" duration="2000" is_activated="NO" unique_mark="fe16b283-ef19-482d-bcc6-aca3564afad1">
+                <content>These sentenses are hidden.</content>
+            </clip>
+            <clip start="32000" duration="4000" is_activated="NO" unique_mark="32752545-d35a-49ae-89ae-d3993cdab16a">
+                <content>You shouldn't see us.</content>
+            </clip>
+            <clip start="38000" duration="2000" is_activated="YES" unique_mark="d1696364-d76f-4579-8a80-1b09e4f39781">
+                <content>When the birds fly away,</content>
+            </clip>
+            <clip start="40000" duration="2000" is_activated="YES" unique_mark="683023cf-3072-486d-a39d-09048e271c44">
+                <content>and the road is covered with grass again,</content>
+            </clip>
+            <clip start="42000" duration="2000" is_activated="YES" unique_mark="20f91d91-47fc-4e7d-b6cd-d453ff704552">
+                <content>I would pick up the flowers,</content>
+            </clip>
+            <clip start="44000" duration="2000" is_activated="YES" unique_mark="c56fe47b-a994-42ac-bb05-f5998a5c6bcd">
+                <content>and roll on the rocks.</content>
+            </clip>
+            <clip start="48000" duration="1050" is_activated="YES" unique_mark="ed7e4acf-0fc7-4b0c-8695-450b932eb856">
+                <content>You have no idea</content>
+            </clip>
+            <clip start="49050" duration="2100" is_activated="YES" unique_mark="88f3950e-215b-48ae-b464-d5b37051419f">
+                <content>how to make love.</content>
+            </clip>
+            <clip start="53000" duration="4000" is_activated="YES" unique_mark="47b0051e-0d5c-4c7a-9d07-b97f8f006c7f">
+                <content>I can swollow glasses without hurting myself.</content>
+            </clip>
+            <clip start="57100" duration="2500" is_activated="YES" unique_mark="45afacc0-b2ab-4137-a542-a630079a946e">
+                <content>So you think you can dance?</content>
+            </clip>
+            <clip start="63400" duration="2000" is_activated="YES" unique_mark="fd207ba6-124f-4209-ad08-6fc180f11631">
+                <content>Are you Kidding?</content>
+            </clip>
+            <clip start="65400" duration="1500" is_activated="YES" unique_mark="7f0a7c7d-3dc8-481b-b48d-e69a484d1dea">
+                <content>No, I am Serious.</content>
+            </clip>
+            <clip start="67312" duration="10000" is_activated="YES" unique_mark="6512b1e5-cd5f-45a6-b7b2-80306643046e">
+                <content>Please follow my Wechat account: 后期黑话</content>
+            </clip>
+        </track>
+        <track tag="Esperanto" is_activated="NO" font_switch="NO">
+            <!--本轨道包含片段24个，片段字体未启用。-->
+            <fontinfo>
+                <alignment>center</alignment>
+                <aspect>1</aspect>
+                <bold>NO</bold>
+                <color red="1" green="1" blue="1" alpha="1"/>
+                <family>Arial</family>
+                <italic>NO</italic>
+                <lead>0</lead>
+                <opacity>1</opacity>
+                <outlineColor red="0" green="0" blue="0" alpha="1"/>
+                <outlineSoft>5</outlineSoft>
+                <outlineWidth>1</outlineWidth>
+                <size>18</size>
+                <track>0</track>
+            </fontinfo>
+            <clip start="0" duration="2000" is_activated="YES" unique_mark="528a71fc-8d02-49bd-b1b7-1d073be7d198">
+                <content>Welcome to Paci CaptionComposer!</content>
+            </clip>
+            <clip start="2000" duration="2000" is_activated="YES" unique_mark="a1ee4aef-a981-4cdd-88c6-22bd3b2790c4">
+                <content>This is a example sequence self generated.</content>
+            </clip>
+            <clip start="4000" duration="2000" is_activated="YES" unique_mark="f71c6c25-3ee2-4789-a384-ec852f490867">
+                <content>The example is made</content>
+            </clip>
+            <clip start="8000" duration="2000" is_activated="YES" unique_mark="da86100d-e2f7-422f-8a3e-1bd943a85bf8">
+                <content>to test or debug functions.</content>
+            </clip>
+            <clip start="10000" duration="2000" is_activated="YES" unique_mark="c2190d84-7054-4859-88fc-2804b275b46a">
+                <content>Thank you for using me.</content>
+            </clip>
+            <clip start="12000" duration="2000" is_activated="YES" unique_mark="eae57df8-b8ad-4f21-b39c-a2ed2e874687">
+                <content>Please contact me</content>
+            </clip>
+            <clip start="14000" duration="2000" is_activated="YES" unique_mark="9e857caa-e624-41dc-b8e9-6d9f18882389">
+                <content>if you have any problem</content>
+            </clip>
+            <clip start="16000" duration="2000" is_activated="YES" unique_mark="b30a233c-6636-4689-9dc3-1c06ae5ea522">
+                <content>or advice.</content>
+            </clip>
+            <clip start="18000" duration="2000" is_activated="YES" unique_mark="298b1f5d-8189-43ae-9da9-23b2244aaba5">
+                <content>My e-mail: xiii_1991@163.com</content>
+            </clip>
+            <clip start="20000" duration="2000" is_activated="YES" unique_mark="4f1ed17a-d562-4837-9a8e-8f07f42c99b6">
+                <content>There're some meanningless words below.</content>
+            </clip>
+            <clip start="22000" duration="2000" is_activated="YES" unique_mark="483faa75-768b-4830-81a6-7aeaf4ace699">
+                <content>Generated for tests.</content>
+            </clip>
+            <clip start="30000" duration="2000" is_activated="NO" unique_mark="a19b22b9-6102-471c-8454-51fbe6a5767b">
+                <content>These sentenses are hidden.</content>
+            </clip>
+            <clip start="32000" duration="4000" is_activated="NO" unique_mark="1376867d-b943-4920-9750-aed7667c9ed3">
+                <content>You shouldn't see us.</content>
+            </clip>
+            <clip start="38000" duration="2000" is_activated="YES" unique_mark="88a33b00-a0e1-4f31-8671-243dd6070081">
+                <content>When the birds fly away,</content>
+            </clip>
+            <clip start="40000" duration="2000" is_activated="YES" unique_mark="576e5089-856a-4925-b8a3-a17b34d0ac9f">
+                <content>and the road is covered with grass again,</content>
+            </clip>
+            <clip start="42000" duration="2000" is_activated="YES" unique_mark="525cdb4b-8ba2-44be-b4d1-30ac3df55c1a">
+                <content>I would pick up the flowers,</content>
+            </clip>
+            <clip start="44000" duration="2000" is_activated="YES" unique_mark="80148924-9589-4831-9590-d4f83f110ccc">
+                <content>and roll on the rocks.</content>
+            </clip>
+            <clip start="48000" duration="1050" is_activated="YES" unique_mark="2e95dd9f-b288-4987-b69c-1b2a17a00f63">
+                <content>You have no idea</content>
+            </clip>
+            <clip start="49050" duration="2100" is_activated="YES" unique_mark="ca9def25-2a60-470d-aa2f-d77249ac2b16">
+                <content>how to make love.</content>
+            </clip>
+            <clip start="53000" duration="4000" is_activated="YES" unique_mark="b05debc4-16ae-4b72-8d7c-980e7da39053">
+                <content>I can swollow glasses without hurting myself.</content>
+            </clip>
+            <clip start="57100" duration="2500" is_activated="YES" unique_mark="c5d03d9a-8313-4c9c-a4eb-abeb2f2bf4ba">
+                <content>So you think you can dance?</content>
+            </clip>
+            <clip start="63400" duration="2000" is_activated="YES" unique_mark="bcba217c-ef9f-4f03-b122-1eeee86ceec4">
+                <content>Are you Kidding?</content>
+            </clip>
+            <clip start="65400" duration="1500" is_activated="YES" unique_mark="caf26fc3-2156-460d-95b1-f391c7fbf07d">
+                <content>No, I am Serious.</content>
+            </clip>
+            <clip start="67312" duration="10000" is_activated="YES" unique_mark="7dd64cc6-a48f-4e80-98bf-5dbd387e05b0">
+                <content>Please follow my Wechat account: 后期黑话</content>
+            </clip>
+        </track>
+    </track_manager>
+</sequence>

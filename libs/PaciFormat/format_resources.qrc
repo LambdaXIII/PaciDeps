@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>templates/fcp7emptytree.xml</file>
+        <file>templates/fcp7outlinetextclip.xml</file>
+        <file>templates/fcp7plaintextclip.xml</file>
+        <file>templates/paci_example_sequence.paci</file>
+        <file>templates/itt_template.xml</file>
+    </qresource>
+</RCC>

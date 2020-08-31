@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xmeml>
+<xmeml version="5">
+  <sequence>
+  <!-- 本文件由啪词生成，请勿手动修改。 -->
+  <!-- 关注公众号“后期黑话”获得更新动态。 -->
+    <name>{SEQUENCENAME}</name>
+    <duration>{DURATION}</duration>
+    <rate>
+        <ntsc>{NTSC}</ntsc>
+        <timebase>{TIMEBASE}</timebase>
+    </rate>
+    <timecode>
+        <rate>
+            <ntsc>{NTSC}</ntsc>
+            <timebase>{TIMEBASE}</timebase>
+        </rate>
+        <string>{TIMEBASESTRING}</string>
+        <frame>0</frame>
+        <source>source</source>
+        <displayformat>NDF</displayformat>
+    </timecode>
+    <in>-1</in>
+    <out>-1</out>
+
+    <media>
+      <video>
+        <format>
+            <samplecharacteristics>
+                <width>1920</width>
+                <height>1080</height>
+                <anamorphic>FALSE</anamorphic>
+                <pixelaspectratio>Square</pixelaspectratio>
+                <fielddominance>upper</fielddominance>
+                <rate>
+                    <ntsc>{NTSC}</ntsc>
+                    <timebase>{TIMEBASE}</timebase>
+                </rate>
+                <colordepth>24</colordepth>
+                <codec>
+                    <name>Apple ProRes 422 HQ</name>
+                    <appspecificdata>
+                        <appname>Final Cut Pro</appname>
+                        <appmanufacturer>Apple Inc.</appmanufacturer>
+                        <appversion>7.0</appversion>
+                        <data>
+                            <qtcodec>
+                                <codecname>Apple ProRes 422 HQ</codecname>
+                                <codectypename>Apple ProRes 422 HQ</codectypename>
+                                <codectypecode>apch</codectypecode>
+                                <codecvendorcode>appl</codecvendorcode>
+                                <spatialquality>1023</spatialquality>
+                                <temporalquality>0</temporalquality>
+                                <keyframerate>0</keyframerate>
+                                <datarate>0</datarate>
+                            </qtcodec>
+                        </data>
+                    </appspecificdata>
+                </codec>
+            </samplecharacteristics>
+            <appspecificdata>
+                <appname>Final Cut Pro</appname>
+                <appmanufacturer>Apple Inc.</appmanufacturer>
+                <appversion>7.0</appversion>
+                <data>
+                    <fcpimageprocessing>
+                        <useyuv>TRUE</useyuv>
+                        <usesuperwhite>FALSE</usesuperwhite>
+                        <rendermode>YUV8BPP</rendermode>
+                    </fcpimageprocessing>
+                </data>
+            </appspecificdata>
+        </format>
+        <track></track>
+      </video>
+
+      <audio>
+        <format></format>
+        <outputs></outputs>
+        <track></track>
+        <track></track>
+      </audio>
+
+    </media>
+  </sequence>
+</xmeml>

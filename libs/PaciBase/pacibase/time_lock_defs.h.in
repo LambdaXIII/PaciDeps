@@ -1,0 +1,8 @@
+#ifndef TIME_LOCK_DEFS_H
+#define TIME_LOCK_DEFS_H
+
+// clang-format off
+#define COMPILE_DATE @TODAY@
+// clang-format on
+
+#endif // TIME_LOCK_DEFS_H

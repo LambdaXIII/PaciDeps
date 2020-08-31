@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Qool/FontDesigner/QoolFontControlPane.qml</file>
+        <file>Qool/FontDesigner/qmldir</file>
+        <file>Qool/FontDesigner/QoolFontPreviewer.qml</file>
+        <file>Qool/FontDesigner/QoolFontDesignerPane.qml</file>
+        <file>Qool/FontDesigner/QoolFontDesignerDialog.qml</file>
+        <file>Qool/FontDesigner/Controls/FontFamilyControl.qml</file>
+        <file>Qool/FontDesigner/Controls/components/FontSelector.qml</file>
+        <file>Qool/FontDesigner/Controls/components/FontSelectorFamilyButton.qml</file>
+        <file>Qool/FontDesigner/Controls/FontNumberControl.qml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,5 @@
+module Qool.FontDesigner
+QoolFontControlPane 1.0 QoolFontControlPane.qml
+QoolFontPreviewer 1.0 QoolFontPreviewer.qml
+QoolFontDesignerPane 1.0 QoolFontDesignerPane.qml
+QoolFontDesignerDialog 1.0 QoolFontDesignerDialog.qml
