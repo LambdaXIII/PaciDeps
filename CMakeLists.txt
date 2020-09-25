@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 3.14)
 
-SET(CMAKE_OSX_DEPLOYMENT_TARGET "10.12" CACHE STRING "Deployment target for OSX" FORCE)
+#SET(CMAKE_OSX_DEPLOYMENT_TARGET "10.12" CACHE STRING "Deployment target for OSX" FORCE)
 project (PaciOneDeps)
 add_definitions(-fPIC)
 
