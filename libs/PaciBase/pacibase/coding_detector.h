@@ -3,6 +3,7 @@
 
 #include <QObject>
 #include "uchardet.h"
+#include <QStringConverter>
 
 namespace paci {
 
@@ -16,12 +17,13 @@ public:
 
   QString detect(const char* filename);
   QString detect(const QString &filename);
+  QStringConverter::Encoding detect2(const char* filename);
 
 protected:
   static constexpr int NUMBER_OF_SAMPLES = 2048;
   char m_buffer[NUMBER_OF_SAMPLES];
-int m_len;
-uchardet_t m_ucd;
+  int m_len;
+  uchardet_t m_ucd;
 };
 
 

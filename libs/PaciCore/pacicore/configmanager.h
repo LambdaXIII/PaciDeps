@@ -4,7 +4,7 @@
 //#include <QVariantMap>
 #include "pacicore_global.h"
 
-#include <QDebug>
+//#include <QDebug>
 #include <QObject>
 #include <QSet>
 #include <QString>

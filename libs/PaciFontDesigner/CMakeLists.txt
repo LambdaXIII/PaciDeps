@@ -11,7 +11,7 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt5 COMPONENTS Core REQUIRED)
+find_package(Qt6 COMPONENTS Core REQUIRED)
 
 #list(APPEND QML_IMPORT_PATH ${PROJECT_SOURCE_DIR})
 
@@ -27,7 +27,7 @@ target_include_directories(${target_name}
 
 target_link_libraries(${target_name}
   QoolUI
-  Qt5::Core)
+  Qt6::Core)
 
 target_compile_definitions(${target_name} PRIVATE DLL_EXPORT)
 

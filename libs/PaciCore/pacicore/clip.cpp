@@ -67,12 +67,12 @@ void Clip::setEndTime(const paci::TimePoint& value) {
 int Clip::wordCount() const {
   if (m_content.isEmpty())
     return 0;
-  auto words = m_content.splitRef(" ", Qt::SkipEmptyParts);
+  auto words = m_content.split(" ", Qt::SkipEmptyParts);
   int result = 0;
   for (const auto& wref : words) {
     int cjk_count = 0;
     bool has_nocjkletter = false;
-    std::wstring ww = wref.toString().toStdWString();
+    std::wstring ww = wref.toStdWString();
     for (const auto& c : ww) {
       if (warlock::string_tools::isCJK(c))
         cjk_count++;

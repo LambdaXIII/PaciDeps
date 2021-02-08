@@ -11,6 +11,8 @@
 #include <QObject>
 #include <QThread>
 
+#include <QStringConverter>
+
 namespace paci {
 
 constexpr QIODevice::OpenMode TEXTWOMODE =
@@ -37,7 +39,7 @@ protected:
 
   void currentProgressPlusOne();
 
-  QTextCodec* codec();
+  QStringConverter::Encoding codec();
   virtual bool isTrackSkipped(const Track* track) const;
   [[nodiscard]] virtual bool isClipSkipped(const Clip& clip) const;
 

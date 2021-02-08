@@ -9,7 +9,7 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt5 COMPONENTS Core REQUIRED)
+find_package(Qt6 COMPONENTS Core REQUIRED)
 
 add_library(PaciFortune SHARED
   pacifortune/pacifortune_global.h
@@ -18,7 +18,7 @@ add_library(PaciFortune SHARED
   fortune.qrc
 )
 
-target_link_libraries(PaciFortune Qt5::Core)
+target_link_libraries(PaciFortune Qt6::Core)
 target_include_directories(PaciFortune INTERFACE ${PROJECT_SOURCE_DIR})
 
 target_compile_definitions(PaciFortune PRIVATE DLL_EXPORT)

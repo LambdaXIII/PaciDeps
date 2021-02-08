@@ -2,7 +2,7 @@
 
 #include "warlock/numbertools.h"
 
-#include <QTextCodec>
+//#include <QTextCodec>
 
 namespace paci {
 
@@ -10,7 +10,7 @@ BaseFormatOperator::BaseFormatOperator(QObject* parent)
   : PaciBaseOperator(parent) {
   m_config.setDefaults(
     { { "skipEmptyClip", false }, { "skipZeroDurationClip", false },
-      { "skipDisabledStuff", false }, { "codecName", "utf-8" } });
+      { "skipDisabledStuff", false }, { "codecName", QStringConverter::System } });
 }
 
 ConfigManager& BaseFormatOperator::config() {
@@ -42,9 +42,10 @@ void BaseFormatOperator::currentProgressPlusOne() {
   updateCurrentProgress(currentProgress() + 1);
 }
 
-QTextCodec* BaseFormatOperator::codec() {
-  QByteArray ba = m_config.get<QString>("codecName").toLatin1();
-  return QTextCodec::codecForName(ba.data());
+QStringConverter::Encoding BaseFormatOperator::codec() {
+  //FIXMME: 这个机制没用了
+  auto ba = m_config.get<QStringConverter::Encoding>("codecName");
+  return ba;
 }
 
 bool BaseFormatOperator::isTrackSkipped(const Track* track) const {

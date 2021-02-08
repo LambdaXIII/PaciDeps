@@ -8,6 +8,7 @@
 #include "basicstructs.h"
 #include "warlock/numbertools.h"
 #include "pacicore_global.h"
+//#include <QJSValue>
 
 #include <cmath>
 
@@ -30,8 +31,15 @@ public:
     m_data = TimeNumber(std::round(s));
   }
 
+//  template<>
+//  explicit TimePoint(QJSValue x){
+//    auto s = warlock::positiveGate(x.toNumber());
+//    m_data = TimeNumber(std::round(s));
+//  }
+
   // OPERATORS
   Q_INVOKABLE TimePoint& operator=(TimeNumber x);
+  Q_INVOKABLE TimePoint& operator=(const TimePoint &x);
   Q_INVOKABLE TimePoint operator+(const TimePoint& other) const;
   Q_INVOKABLE TimePoint operator+(TimeNumber x) const;
   Q_INVOKABLE TimePoint operator-(const TimePoint& other) const;

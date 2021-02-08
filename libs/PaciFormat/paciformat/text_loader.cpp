@@ -8,6 +8,7 @@
 
 #include <QFileInfo>
 #include <QTextStream>
+#include <QStringConverter>
 
 namespace paci {
 
@@ -47,7 +48,7 @@ TrackManager* TextLoader::parseTrackManager() {
   updateCurrentProgress(-1);
 
   CodingDetector cdt;
-  QString code_name = cdt.detect(m_sourceUrl.toLocalFile());
+  QStringConverter::Encoding code_name = cdt.detect2(m_sourceUrl.toLocalFile().toStdString().c_str());
   //  qDebug() << code_name;
 
   if (file.open(QIODevice::ReadOnly)) {
@@ -55,8 +56,7 @@ TrackManager* TextLoader::parseTrackManager() {
 
     QTextStream ins(&file);
 
-    if (! code_name.isEmpty())
-      ins.setCodec(code_name.toStdString().c_str());
+    ins.setEncoding(code_name);
 
     while ((! ins.atEnd()) && (! canceled())) {
       auto line = ins.readLine();

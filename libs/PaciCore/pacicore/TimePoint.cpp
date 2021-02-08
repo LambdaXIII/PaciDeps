@@ -32,6 +32,11 @@ TimePoint& TimePoint::operator=(TimePoint::TimeNumber x) {
   return *this;
 }
 
+TimePoint& TimePoint::operator=(const TimePoint &x){
+  m_data = x.m_data;
+  return *this;
+}
+
 TimePoint TimePoint::operator-(TimePoint::TimeNumber x) const {
   if (this->m_data <= x)
     return TimePoint(0);
