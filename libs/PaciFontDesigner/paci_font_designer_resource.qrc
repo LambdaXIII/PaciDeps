@@ -9,5 +9,6 @@
         <file>Qool/FontDesigner/Controls/components/FontSelector.qml</file>
         <file>Qool/FontDesigner/Controls/components/FontSelectorFamilyButton.qml</file>
         <file>Qool/FontDesigner/Controls/FontNumberControl.qml</file>
+        <file>Qool/FontDesigner/Controls/FontFamilyControl_bak.qml</file>
     </qresource>
 </RCC>

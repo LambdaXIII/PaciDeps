@@ -6,7 +6,6 @@ import Qool.Components 1.0
 import QtQuick.Controls 2.14
 import "components"
 import QtQuick.Window 2.14
-import Qt.labs.platform 1.1
 
 BasicInputControl {
   id: control
@@ -82,27 +81,22 @@ BasicInputControl {
     }
   } //menu
 
-  FontDialog {
+  QoolDialogWindow {
     id: sel_dialog
-    onAccepted: control.value = sel_dialog.currentFont.family
+    title: qsTr("字体选择")
+    resizable: false
+    width: 460
+    height: 350
+    Loader {
+      id: selectorLoader
+      enabled: sel_dialog.visible
+      anchors.fill: sel_dialog.hiddenBox
+      asynchronous: true
+      visible: selectorLoader.status == Loader.Ready
+      sourceComponent: FontSelector {}
+    }
+    onAccepted: control.value = selectorLoader.item.value
+    okButton.text: qsTr("选好啦")
+    cancelButton.text: qsTr("不选了")
   }
-
-  //  QoolDialogWindow {
-  //    id: sel_dialog
-  //    title: qsTr("字体选择")
-  //    resizable: false
-  //    width: 460
-  //    height: 350
-  //    Loader {
-  //      id: selectorLoader
-  //      enabled: sel_dialog.visible
-  //      anchors.fill: sel_dialog.hiddenBox
-  //      asynchronous: true
-  //      visible: selectorLoader.status == Loader.Ready
-  //      sourceComponent: FontSelector {}
-  //    }
-  //    onAccepted: control.value = selectorLoader.item.value
-  //    okButton.text: qsTr("选好啦")
-  //    cancelButton.text: qsTr("不选了")
-  //  }
 }
