@@ -14,6 +14,8 @@ Clip::Clip(const QString& content,
   this->m_content = content;
   this->m_start = start;
   this->m_duration = dur;
+  connect(this,&Clip::startTimeChanged,this,&Clip::anyTimeChanged);
+  connect(this,&Clip::durationTimeChanged,this,&Clip::anyTimeChanged);
 }
 
 Clip* Clip::fromClip(const Clip* other) {

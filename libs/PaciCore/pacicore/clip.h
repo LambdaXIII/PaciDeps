@@ -56,6 +56,7 @@ protected:
 signals:
   void startTimeChanged(TimePoint v);
   void durationTimeChanged(TimePoint v);
+  void anyTimeChanged();
 };
 
 } // namespace paci
