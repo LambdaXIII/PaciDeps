@@ -44,7 +44,7 @@ ScrollView {
 
   Column {
     z: 30
-    width: root.width - root.padding * 2
+    width: root.width - root.padding * 2 - 5
     spacing: 6
     FontFamilyControl {
       id: familyControl
