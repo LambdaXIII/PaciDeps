@@ -15,6 +15,8 @@
 #include "text_loader.h"
 #include "text_saver.h"
 
+#include <stdexcept>
+
 namespace paci {
 
 FormatProfiler::FormatProfiler(int r) {
@@ -150,6 +152,9 @@ FormatProfiler::Format FormatProfiler::formatFromCode(
 
 BaseLoader* FormatProfiler::forgeLoader(
   const QUrl& path, Format format) {
+  if (format == Unknown) {
+    throw std::invalid_argument("Unknown format code detected.");
+  }
   auto* loader = m_loaderCreatorMap[format](path);
   loader->config().addOptions(masterConfig);
   return loader;
